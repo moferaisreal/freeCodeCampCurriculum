@@ -1,6 +1,3 @@
 # FreeCodeCamp Curriculum
 
-#Build a Personal Portfolio Webpage
-
-################################
-Not completed yet
+Build a Palindrome Checker
