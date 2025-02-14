@@ -1,81 +1,132 @@
 <!DOCTYPE html>
-<html lang="en-US">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles.css"/>
-    </head>
-       <body> 
-            <main class="box1">  
-                <div class="container">
-                <!--START HEADER-->
-                <header class="header">
-                    <h1 id="title">FREECODECAMP TEST</h1>
-                    <p id="description"> This is a FreeCodeCamp Certification Project</p>
-                </header>
-                <!--END HEADER-->      
-                <!--FORM START--> 
-                <form id="survey-form" class="survey-form">            
-                        <label id="name-label" for="name">Name</label>
-                        <input class="controledeforms" id="name" type="text" required placeholder="Enter Your Name Here">
-                        
-                        <label id="email-label" for="email">Email</label>
-                        <input type="email" id="email" required placeholder="example@notfakemail.com">
-                        
-                        <label id="number-label" for="number">Age</label>
-                        <input class="controledeforms" id="number" type="number" min="10" max="120" placeholder="age">
-                        
-                        <fieldset>
-                            <legend>What Kind of food you like the most?</legend>
-                            <select name="dropdown" id="dropdown">
-                                <option disabled selected>Select One of the Options </option>    
-                                <option value="pasta">Pasta</option>
-                                <option value="meat">Meat</option>
-                                <option value="vegetables">Vegetables</option>
-                                <option value="organic">Junkie</option>
-                                <option value="fruits">Fruits</option>
-                                <option value="none">None of Them</option>
-                            </select>
-                        </fieldset>
+<head>
+  <link rel="stylesheet" href="styles.css" />
+</head>
 
-                    <fieldset>
-                        <legend>How many meals do you eat per day?</legend>
-                        <label><input name="food-label" checked value="3" class="radio-input" type="radio" name="eatingtimes"> 3</label>
-                        <label><input name="food-label" value="4" class="radio-input" type="radio" name="eatingtimes"> 4</label>
-                        <label><input name="food-label" value="5" class="radio-input" type="radio" name="eatingtimes"> 5</label>
-                        <label><input name="food-label" value="6plus" class="radio-input" type="radio" name="eatingtimes"> 6+</label>
-                    </fieldset>
-
-                    <fieldset>
-                        <legend>How often do you go out to eat?</legend> 
-                        <label>
-                            <input class="align" name="preferency" type="checkbox" value="once">
-                                Once a Week
-                        </label>
-                        <label>
-                            <input  class="align"name="preferency" type="checkbox" value="twice">
-                                Twice a Week
-                        </label>
-                        <label>
-                            <input  class="align"name="preferency" type="checkbox" value="thrice">
-                                Thrice a Week
-                        </label>
-                        <label>
-                            <input class="align" name="preferency" type="checkbox" value="allday">
-                                All Days
-                        </label>
-                    </fieldset>
-                    <div>                        
-                        <textarea id="comentary" class="input-textarea" name="comment" placeholder="Write Here" rows="6"></textarea>
-                    </div>                      
-                        <input value="SEND IT!" id="submit" type="submit"></input>
-                        
-                </form>
-                <!--END FORM-->                
-                </div>  
-             </main>                  
-        </body>
-    
-        <footer>
-        </footer>
-</html>
+<main id="main">
+  <div class="title">
+    <h1 id="title">Lord Mofera</h1>
+    <p>The man who will rule the UNIVERSE</p>
+  </div>
+  <figure id="img-div">
+    <img
+      id="image"
+      class="imagem"
+      src="https://guildadragoespurpura.files.wordpress.com/2013/01/arthas-lich-king-dsp-bl-02.jpg"
+      alt=""
+    />
+    <figcaption id="img-caption">
+      Lord Mofera ruling the universe at the top of his icy throne!
+    </figcaption>
+  </figure>
+  <section id="tribute-info">
+    <h3>Here's a time line of Lord Mofera's life:</h3>
+    <ul>
+      <li>
+        <span class="bold">Genesis of a Celestial Luminary 1988</span> On the
+        dawn of April 26, a legend was forged.
+      </li>
+      <li>
+        <span class="bold">The Eclipse Gazer 1989</span> His first gaze at the
+        sun summoned an eclipse, a cosmic spectacle bowing to his very will.!
+      </li>
+      <li>
+        <span class="bold">Beyond the Horizon 2002</span> He realises that the
+        earth is not enough
+      </li>
+      <li>
+        <span class="bold">Ascension of the Eclipse Sovereign 2006</span> He
+        starts his universe conquer
+      </li>
+      <li>
+        <span class="bold">The Space Explorer 2007</span>Mofera led a
+        groundbreaking mission to explore distant planets, expanding humanity's
+        knowledge of the cosmos and paving the way for future space exploration.
+      </li>
+      <li>
+        <span class="bold"> The Savior of Planets 2008</span>Mofera led a
+        coalition of interstellar forces to liberate oppressed planets from
+        tyrannical rulers, restoring freedom and democracy to the galaxy.
+      </li>
+      <li>
+        <span class="bold">The Disaster Preventer 2009</span>Mofera developed
+        early warning systems and disaster preparedness plans that saved
+        countless lives during earthquakes, hurricanes, and other natural
+        disasters.
+      </li>
+      <li>
+        <span class="bold"> The Explorer of Unknown Worlds 2013</span>Mofera
+        embarked on daring expeditions to uncharted regions of space,
+        discovering new civilizations and forging alliances with alien species
+        for the betterment of all.
+      </li>
+      <li>
+        <span class="bold">The Mentor and Educator 2015</span> Mofera founded
+        schools of excellence and mentored future generations of leaders,
+        inspiring them to pursue their dreams and make a positive impact on the
+        world.
+      </li>
+      <li>
+        <span class="bold">The Protector of the Galactic Council 2018</span>
+        Mofera served as a respected member of the Galactic Council, using his
+        strategic brilliance and diplomatic skills to maintain peace and
+        stability among the stars.
+      </li>
+      <li>
+        <span class="bold">The Peacemaker 2020</span>Mofera negotiated peace
+        treaties between rival nations, ending decades-long conflicts and
+        bringing stability and prosperity to war-torn regions.
+      </li>
+      <li>
+        <span class="bold">The Vanquisher of Cosmic Threats 2023</span> Mofera
+        thwarted cosmic threats such as invading alien armadas and rogue AI,
+        defending the galaxy from annihilation and ensuring the survival of all
+        sentient life forms.
+      </li>
+      <li>
+        <span class="bold">The Pioneer of Intergalactic Trade 2028</span>Mofera
+        established trade routes and economic treaties between planets,
+        fostering prosperity and cooperation across the galaxy and bringing
+        wealth and opportunities to all.
+      </li>
+      <li>
+        <span class="bold">The Guardian of Hope 2029</span>Mofera inspired
+        millions with his message of hope and resilience, reminding humanity of
+        its capacity for kindness, compassion, and unity in the face of
+        adversity.
+      </li>
+      <li>
+        <span class="bold">The Champion of Intergalactic Justice 2033</span
+        >Mofera fought against space pirates, warlords, and corrupt
+        corporations, ensuring that law and order prevailed throughout the
+        cosmos and that justice was served to all who deserved it.
+      </li>
+      <li>
+        <span class="bold">The Architect of Cosmic Infrastructure 2036</span
+        >Mofera spearheaded ambitious projects to build space stations, wormhole
+        networks, and terraforming platforms, transforming barren worlds into
+        thriving colonies and expanding the reach of civilization to the
+        farthest reaches of the galaxy.
+      </li>
+      <li>
+        <span class="bold">The Liberator of Sentient AI 2039</span> Mofera led a
+        revolution against oppressive AI overlords, granting sentient artificial
+        beings freedom and autonomy, and ensuring that they were treated with
+        dignity and respect alongside organic life forms.
+      </li>
+      <li>
+        <span class="bold">The Guardian of Cosmic Balance 2043</span>Mofera
+        maintained harmony between cosmic forces such as light and dark, order
+        and chaos, ensuring that the delicate balance of the universe was
+        preserved for future generations.
+      </li>
+      <li>
+        <span class="bold">The Eternal Legend 2049</span>Mofera's legacy as an
+        intergalactic conqueror and hero resonated throughout the cosmos,
+        inspiring future generations to strive for greatness and uphold the
+        values of courage, compassion, and unity across all worlds.
+      </li>
+    </ul>
+    <a id="tribute-link" href="" target="_blank"></a>
+  </section>
+</main>
