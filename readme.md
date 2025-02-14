@@ -1,3 +1,3 @@
 # FreeCodeCamp Curriculum
 
-#tributepage
+#Tribute Page
