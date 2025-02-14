@@ -1,3 +1,3 @@
 # FreeCodeCamp Curriculum
 
-#Tribute Page
+#Build a Technical Documentation Page
