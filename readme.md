@@ -1,6 +1,6 @@
 # FreeCodeCamp Curriculum
 
-#Build a Product Landing Page
+#Build a Personal Portfolio Webpage
 
 ################################
 Not completed yet

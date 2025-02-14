@@ -1,12 +1,10 @@
-* {
-  display: flex;
+@media (max-width: 600px) {
+  body {
+    font-size: 60%;
+  }
 }
-#nav-bar {
-  position: fixed;
-  top: 0px;
-}
-@media {
-  #video {
-    max-width: 720px;
+@media (max-width: 500px) {
+  body {
+    font-size: 50%;
   }
 }
