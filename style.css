@@ -1,0 +1,148 @@
+:root {
+  /*margins*/
+  --margin-xxs: 0.25rem;
+  --margin-xs: 0.5rem;
+  --margin-s: 0.75rem;
+  --margin-m: 1rem;
+  --margin-l: 1.25rem;
+  --margin-xl: 1.5rem;
+  --margin-xxl: 1.75rem;
+  --margin-xxxl: 2.5rem;
+
+  /*Colors*/
+  --bg: #003e51;
+  --font: #eceeef;
+  --error: hsl(1, 44%, 46%);
+  --success: #0d7d38;
+  --gray: #607576;
+  --white: #e0e5e6;
+  --btn: linear-gradient(#4df88f, #23f774);
+  --border: #18e667;
+
+  /*Fonts*/
+  --ff: "Geo", serif;
+  --ff1: "Stardos Stencil", serif;
+  --tiny: clamp(0.5628rem, 0.7208rem + -0.1317vw, 0.6944rem) var(--ff);
+  --small: clamp(0.7502rem, 0.85rem + -0.0831vw, 0.8333rem) var(--ff);
+  --p: clamp(1rem, 1rem + 0.7705vw, 1rem) var(--ff);
+  --h6: clamp(1.2rem, 1.1734rem + 0.133vw, 1.333rem) var(--ff);
+  --h5: clamp(1.44rem, 1.3726rem + 0.3369vw, 1.7769rem) var(--ff);
+  --h4: clamp(1.728rem, 1.5999rem + 0.6406vw, 2.3686rem) var(--ff);
+  --h3: clamp(2.0736rem, 1.8569rem + 1.0837vw, 3.1573rem) var(--ff1);
+  --h2: clamp(2.4883rem, 2.1442rem + 1.7204vw, 4.2087rem) var(--ff1);
+  --h1: clamp(2.986rem, 2.4611rem + 2.6242vw, 5.6102rem) var(--ff1);
+  --big: clamp(3.5832rem, 2.8041rem + 3.8953vw, 7.4784rem) var(--ff1);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+form,
+.output,
+input {
+  font: var(--h5);
+  background-color: var(--gray);
+  color: var(--font);
+  border: 0.2em solid var(--white);
+}
+
+form,
+.output {
+  width: 90%;
+  max-width: 31em;
+  margin: 1.5em 0 0 0;
+  padding: 0.7em;
+  overflow-x: hidden;
+}
+
+form {
+  text-align: center;
+}
+
+.output {
+  min-height: 3.4em;
+  text-align: center;
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 0.3em 0.75em;
+  height: 3.75em;
+  margin: 0.6em 0;
+}
+
+fieldset {
+  border: none;
+}
+
+form,
+.output,
+.btn {
+  font: var(--h5);
+}
+
+.btn {
+  background-image: var(--btn);
+  cursor: pointer;
+  text-decoration: none;
+  border: 1px solid var(--border);
+  border-radius: 5%;
+  width: 60%;
+  margin-top: 0.9em;
+  padding: 0.6em 1em;
+}
+
+.btn:hover {
+  background-color: var(--success);
+  color: var(--white);
+  scale: 1.1;
+}
+
+body,
+main {
+  margin: 0 auto;
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--bg);
+}
+
+main {
+  max-width: 31em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1,
+label {
+  color: var(--font);
+}
+
+h1 {
+  font: var(--h3);
+  text-align: center;
+  margin: 1.25em auto;
+  font-weight: bold;
+}
+
+label {
+  display: inline-block;
+  font: var(--h4);
+  margin-bottom: 0.6em;
+  font-weight: bold;
+}
