@@ -1,0 +1,23 @@
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, Georgia, "Times New Roman", Times, serif,
+    sans-serif;
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+ul {
+  margin: 0 25%;
+  text-align: left;
+}

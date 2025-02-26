@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+       <body> 
+            <main class="box1">  
+                <div class="container">
+                <!--START HEADER-->
+                <header class="header">
+                    <h1 id="title">FREECODECAMP TEST</h1>
+                    <p id="description"> This is a FreeCodeCamp Certification Project</p>
+                </header>
+                <!--END HEADER-->      
+                <!--FORM START--> 
+                <form id="survey-form" class="survey-form">            
+                        <label id="name-label" for="name">Name</label>
+                        <input class="controledeforms" id="name" type="text" required placeholder="Enter Your Name Here">
+                        
+                        <label id="email-label" for="email">Email</label>
+                        <input type="email" id="email" required placeholder="example@notfakemail.com">
+                        
+                        <label id="number-label" for="number">Age</label>
+                        <input class="controledeforms" id="number" type="number" min="10" max="120" placeholder="age">
+                        
+                        <fieldset>
+                            <legend>What Kind of food you like the most?</legend>
+                            <select name="dropdown" id="dropdown">
+                                <option disabled selected>Select One of the Options </option>    
+                                <option value="pasta">Pasta</option>
+                                <option value="meat">Meat</option>
+                                <option value="vegetables">Vegetables</option>
+                                <option value="organic">Junkie</option>
+                                <option value="fruits">Fruits</option>
+                                <option value="none">None of Them</option>
+                            </select>
+                        </fieldset>
+
+                    <fieldset>
+                        <legend>How many meals do you eat per day?</legend>
+                        <label><input name="food-label" checked value="3" class="radio-input" type="radio" name="eatingtimes"> 3</label>
+                        <label><input name="food-label" value="4" class="radio-input" type="radio" name="eatingtimes"> 4</label>
+                        <label><input name="food-label" value="5" class="radio-input" type="radio" name="eatingtimes"> 5</label>
+                        <label><input name="food-label" value="6plus" class="radio-input" type="radio" name="eatingtimes"> 6+</label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>How often do you go out to eat?</legend> 
+                        <label>
+                            <input class="align" name="preferency" type="checkbox" value="once">
+                                Once a Week
+                        </label>
+                        <label>
+                            <input  class="align"name="preferency" type="checkbox" value="twice">
+                                Twice a Week
+                        </label>
+                        <label>
+                            <input  class="align"name="preferency" type="checkbox" value="thrice">
+                                Thrice a Week
+                        </label>
+                        <label>
+                            <input class="align" name="preferency" type="checkbox" value="allday">
+                                All Days
+                        </label>
+                    </fieldset>
+                    <div>                        
+                        <textarea id="comentary" class="input-textarea" name="comment" placeholder="Write Here" rows="6"></textarea>
+                    </div>                      
+                        <input value="SEND IT!" id="submit" type="submit"></input>
+                        
+                </form>
+                <!--END FORM-->                
+                </div>  
+             </main>                  
+        </body>
+    
+        <footer>
+        </footer>
+</html>
